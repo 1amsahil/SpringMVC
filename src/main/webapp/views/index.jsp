@@ -4,14 +4,14 @@
     <body>
             <h2> Eternity Calculator </h2>
 
-            <form action="add">
-                <label>Enter 1st Number : </label>
-                <input type="text" id="num1" name="num1">
+            <form action="addUser">
+                <label for="id" >Enter Id : </label>
+                <input type="text" id="id" name="id">
                 <br>
-                <label>Enter 2nd Number : </label>
-                <input type="text" id="num2" name="num2">
+                <label for="name">Enter Name : </label>
+                <input type="text" id="name" name="name">
                 <br>
-                <input type="submit" value="submit">
+                <input type="submit" value="Login">
             </form>
     </body>
 </html>
