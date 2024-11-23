@@ -2,6 +2,6 @@
 
 <html>
     <body>
-         <h2>Result : ${result} </h2>
+         <h2>Result : ${results} </h2>
     </body>
 </html>

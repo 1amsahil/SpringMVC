@@ -1,6 +1,7 @@
 package com.eternity.code.SpringMVC;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import jakarta.servlet.http.HttpServletRequest;
@@ -19,13 +20,13 @@ public class HomeController {
     }
 
     @RequestMapping("add")
-    public String add( @RequestParam("num1")int num, int num2, HttpSession session)
+    public String add(int num1, int num2, Model model)
     {
         System.out.println("Add Method called");
 
-        int result = num + num2;
+        int result = num1 + num2;
 
-        session.setAttribute("result", result);
+        model.addAttribute("results", result);
 
         return "result.jsp";
     }
