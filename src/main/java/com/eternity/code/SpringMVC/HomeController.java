@@ -17,15 +17,15 @@ public class HomeController {
         return "index.jsp";
     }
 
-//    @RequestMapping("add")
-//    public String add(int num1,int num2, HttpSession session)
-//    {
-//        System.out.println("Add Method called");
-//
-//        int result = num1 + num2;
-//
-//        session.setAttribute("result", result);
-//
-//        return "result.jsp";
-//    }
+    @RequestMapping("add")
+    public String add(int num1,int num2, HttpSession session)
+    {
+        System.out.println("Add Method called");
+
+        int result = num1 + num2;
+
+        session.setAttribute("result", result);
+
+        return "result.jsp";
+    }
 }
