@@ -1,0 +1,60 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+    font-family: "Poppins", sans-serif;
+}
+
+body
+{
+     background: linear-gradient(90deg, rgba(2,0,36,0.9837184873949579) 24%, rgba(46,174,187,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+.heading
+{
+    font-size: 40px;
+    color: azure;
+}
+
+.form
+{
+    display: grid;
+    justify-content : center;
+
+    color: azure;
+}
+
+.form label
+{
+    font-size: 20px ;
+
+    margin : 10px 0px 10px 0px;
+}
+
+#id,#name
+{
+    padding-left: 10px;
+
+    width: 300px;
+    height: 30px;
+
+    border-radius: 5px;
+
+}
+
+.button
+{
+    border-radius: 3px;
+    border-color: dodgerblue;
+
+    width: 300px;
+    height: 30px;
+
+    color: white;
+    background-color: dodgerblue;
+
+    font-weight: 200;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+}
