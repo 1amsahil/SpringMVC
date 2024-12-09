@@ -2,7 +2,7 @@
 
 <html>
     <body>
-            <h2> ${name} Calculator </h2>
+            <h2> ${name} Page </h2>
 
             <form action="addUser">
                 <label for="id" >Enter Id : </label>

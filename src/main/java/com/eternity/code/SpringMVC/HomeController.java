@@ -11,7 +11,7 @@ public class HomeController {
     @ModelAttribute("name")
     public String headName()
     {
-        return "Eternity";
+        return "Login";
     }
 
     @RequestMapping("/")
