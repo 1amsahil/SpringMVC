@@ -6,7 +6,8 @@
         <title> Login Page </title>
     </head>
     <body>
-            <h2 class="heading"> ${name} Page </h2>
+            <h2 class="login">Login Page</h2>
+            <h2 class="heading"> ${name} </h2>
 
             <form class = "form" action="addUser">
                 <label for="id" >Enter Id : </label>
